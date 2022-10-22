@@ -8,11 +8,6 @@ headers = {
 }
 
 
-
-# data = soup.find('div', _class='listing__items').find_all('div', _class='listing-item listing-item--color listing-item--top')
-# print(data[0])
-
-
 class Parser:
     def __init__(self, pages: range, headers):
         self.pages = pages
